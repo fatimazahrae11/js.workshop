@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <h3>MENU</h3>
+        <ul>
+        <li><a href="./index.html">Home</a></li> 
+        <li><a href="./swap.html">Les variables</a></li>
+        <li><a href="./date.html">Les conditions</a></li>
+        <li><a href="./multi.html">La boucle for</a></li>
+        <li><a href="./guess.html">La boucle while</a></li>
+        <li><a href="./triangle.html">Les boucles imbriquées</a></li>
+        <li><a href="./calcul.html">Les fonctions</a></li>                   
+        <li><a href="./strings.html">Recherche et suppression</a></li>
+        <li><a href="./chaine.count.html">Comptage du voyelles</a></li>
+        <li><a href="./table.html">Tri d'un tableau</a></li>
+        <li><a href="./table.rech.html">Rech dans un tableau</a></li>
+        </ul>   
+    </nav>
+
+
+
+    <main>
+        <h1>Devine le nombre !</h1>
+        <section class="enonce">
+           <h2>Enoncé</h2>
+           <p>L’utilisateur doit deviner un nombre entre 1 et 50 que le programme a choisi aléatoirement en 10 tentatives. <br> Quand l’utilisateur entre une valeur, on lui affiche le nombre de tentatives restantes, ainsi qu’un message indiquant si sa réponse est correcte ou pas.</p>
+       
+        </section>
+
+        <section class="game">
+        <H2>Démo</H2>
+        <div id="gg">
+        <div class="deviner">
+            <p>Tries left : <span id="tentatives">10</span></p>
+            <p>Guess a number between 1-50</p>
+            <input id="deviner-input" type="text">
+            <button onclick=onSubmit() class="btn">Envoyer</button>
+            <p id="message"></p>
+        </div>
+    </section>
+
+        <section class="code">
+        <H2>Code source:</h2>
+        <img src="./cs/guess.cs.png">
+        <img src="./cs/guess2.cs.png">
+        <img src="./cs/guess3.cs.png">
+        </section>
+
+        </main>
+<script src="./guess.js"> </script>
+</body>
+</html>

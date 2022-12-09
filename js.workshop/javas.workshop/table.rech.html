@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <h3>MENU</h3>
+        <ul>
+        <li><a href="./index.html">Home</a></li> 
+        <li><a href="./swap.html">Les variables</a></li>
+        <li><a href="./date.html">Les conditions</a></li>
+        <li><a href="./multi.html">La boucle for</a></li>
+        <li><a href="./guess.html">La boucle while</a></li>
+        <li><a href="./triangle.html">Les boucles imbriquées</a></li>
+        <li><a href="./calcul.html">Les fonctions</a></li>                   
+        <li><a href="./strings.html">Recherche et suppression</a></li>
+        <li><a href="./chaine.count.html">Comptage du voyelles</a></li>
+        <li><a href="./table.html">Tri d'un tableau</a></li>
+        <li><a href="./table.rech.html">Rech dans un tableau</a></li>
+        </ul>   
+    </nav>
+
+
+
+    <main>
+        <h1>Recherche dans un tableau</h1>
+        <section class="enonce">
+           <h2>Enoncé</h2>
+           <p>Ecrire un programme Javascript qui permet de rechercher une valeur dans un tableau d’entier. 
+            L’utilisateur doit suivre les étapes suivantes :
+            1.	Saisir la taille du tableau, 
+            2.	Remplir le tableau par des entiers
+            3.	Introduire la valeur à rechercher
+            4.	Cliquer sur le boutons « Rechercher »
+            Le programme affiche ensuite un message si la valeur à rechercher existe ou non dans le tableau.
+            </p>
+       
+        </section>
+
+
+        <section class="game">
+            <H2>Démo</H2>
+            <div id="gg">
+                <div>
+                    <label for="taille">Donner la taille du tableau :</label>
+                    <input type="text" id="taille">
+                    <button id="done" onclick="laTaille()">Donne</button>
+                </div>
+                <div class="inp">
+                    <input type="text" id="case"><br>
+                    <input type="text" id="case2"><br>
+                    <input type="text" id="case3"><br>
+                    <input type="text" id="case4"><br>
+                    <input type="text" id="case5">
+                    <button id="cree" onclick="addNumber()">Tri</button>
+                </div>
+                <div id="display"></div>
+                <div class="inp2">
+                    <input type="text" id="rech1">
+                    <button id="rech" onclick="recherche()">Recherche</button>
+                </div>
+                <div id="display2"></div>
+        </div>
+        </section>
+
+        <section class="code">
+            <H2>Code source:</H2>
+            <img src="./cs/table.png" width="80%">
+            <img src="./cs/table2.png"width="80%">
+            <img src="./cs/table3.png"width="80%">
+            <img src="./cs/table4.png"width="80%">
+            <img src="./cs/table4.png"width="80%">
+
+        </section>
+
+        </main>
+  <script src="./table.rech.js"></script>  
+</body>
+</html>

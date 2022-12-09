@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>js.workshop</title>
+</head>
+<body>
+
+    <nav>
+        <h3>MENU</h3>
+        <ul>
+        <li><a href="./index.html">Home</a></li> 
+        <li><a href="./swap.html">Les variables</a></li>
+        <li><a href="./date.html">Les conditions</a></li>
+        <li><a href="./multi.html">La boucle for</a></li>
+        <li><a href="./guess.html">La boucle while</a></li>
+        <li><a href="./triangle.html">Les boucles imbriquées</a></li>
+        <li><a href="./calcul.html">Les fonctions</a></li>                   
+        <li><a href="./strings.html">Recherche et suppression</a></li>
+        <li><a href="./chaine.count.html">Comptage du voyelles</a></li>
+        <li><a href="./table.html">Tri d'un tableau</a></li>
+        <li><a href="./table.rech.html">Rech dans un tableau</a></li>
+        </ul>   
+    </nav>
+
+    <main>
+    <h1>triangle en étoiles</h1>
+    <section class="enonce">        
+    <h2>Enoncé</h2>
+    <p>Ce programme a pour objectif de dessiner un losange en étoiles dont la longueur des diagonales est un
+    nombre impair saisi par l’utilsateur. Dans le cas où l’utilisateur entre un nombre pair, il faut afficher une erreur. </p>
+    </section>
+
+    <section class="game">
+    <h2>Démo</h2>
+    <div id="gg">
+        <p>Saisir la longueur des diagonales </p>
+        <input type="text" id="number">
+        <button id="bttn" onclick="draw()">Dessiner</button>
+        <h4 id="show"></h4>
+    </div>
+    </section>
+
+    <section class="code">
+    <h2>Code source</h2>
+    <img src="./cs/triangle.cs.png">
+    </section> 
+
+    </main>
+    <script src="./triangle.js"></script>
+    </body>
+    </html>

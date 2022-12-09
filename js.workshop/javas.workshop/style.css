@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body
+{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #000;
+    
+}
+
+nav {
+    position: fixed;
+    overflow: hidden;
+    background-color: #aaa;
+    text-align:center;
+    float: left;
+    height: 100vh;
+    top: 0;
+    width: 15%;
+  }
+
+nav a {
+    display: inline-block; color: #000;
+    text-shadow: 0 0 5px #fff;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+nav a::before {
+    content:'';
+    width:0%;
+    height:3px;
+    display:block;
+    background-color: #fff;
+    margin-bottom:10px;
+  }
+  
+nav a:hover::before {
+    width:100%;
+    transition:all .5s;
+  }
+
+
+h3
+{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+main
+{
+    float: left;
+    width: 70%;
+    padding-left: 25%;
+}
+
+h1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #000;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff, 0 0 15px #0073e6,
+    0 0 20px #0073e6, 0 0 25px #0073e6,
+    0 0 30px #0073e6, 0 0 35px #0073e6;
+    text-align: center;
+}
+
+#home
+{
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff, 0 0 15px #0073e6,
+    0 0 20px #0073e6, 0 0 25px #0073e6,
+    0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+#hoome{
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff, 0 0 15px #0073e6,
+    0 0 20px #0073e6, 0 0 25px #0073e6,
+    0 0 30px #0073e6, 0 0 35px #0073e6;  
+    margin-top: 10%;
+}
+
+figcaption{
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff, 0 0 15px #0073e6,
+    0 0 20px #0073e6, 0 0 25px #0073e6,
+    0 0 30px #0073e6, 0 0 35px #0073e6;  
+    font-size: larger;
+    float: right;
+    margin-top: 40px;
+    margin-right: 40%;
+}
+
+.enonce h2{
+    background-color: #aaa;
+    color: #000;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff, 0 0 15px #0073e6,
+    0 0 20px #0073e6, 0 0 25px #0073e6,
+    0 0 30px #0073e6, 0 0 35px #0073e6;
+    width: 15%;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large ;
+    border-radius: 10px;
+}
+
+.enonce p{
+    background-color: 	#5d7db0;
+    color: #fff ;
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.game h2{
+    background-color: #aaa;
+    color: #000;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff, 0 0 15px #0073e6,
+    0 0 20px #0073e6, 0 0 25px #0073e6,
+    0 0 30px #0073e6, 0 0 35px #0073e6;
+    width: 15%;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large ;
+    border-radius: 10px;
+}
+
+
+#gg{
+    background-color: #5d7db0;
+    color: #fff;
+    width: 79.6%;
+    padding: 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#result{
+    height: 100%;
+}
+
+#swap
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+button{
+    background-color: #000;
+    color:  #fff;
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#val{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+input{
+    padding: 5px;
+}
+
+.code h2{
+    background-color: #aaa;
+    color: #000;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff, 0 0 15px #0073e6,
+    0 0 20px #0073e6, 0 0 25px #0073e6,
+    0 0 30px #0073e6, 0 0 35px #0073e6;
+    width: 15%;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large ;
+    border-radius: 10px;
+}
+
+.wow{
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+
+.wew{
+    padding-left: 40%;
+}
+
+.waw
+{       
+    overflow: hidden;
+    float: right;
+}
+
+
+img
+{
+    border-radius: 10px;
+}
+
+#swap p
+{
+    padding-right: 20px;
+}
+
+
+#gg p
+{
+   
+    margin-bottom: 10px;
+}
+
+h5
+{
+    font-weight:200;
+    padding-right: 7px;
+}
+
+#ha{
+    float: left;
+}
+
+#hi button{
+    margin-top: 10px;
+    float:right;
+}
+
+#word{
+    width: 50%;
+}
+
+#ha input{
+    margin-bottom: 10px;
+}
+
+#gg #result{
+    background-color: #000;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    padding: 30px;
+    margin-left: 95px;
+    margin-top: 100px;
+    float: right;
+}
+
+#message{
+    background-color: #000;
+    border-radius: 10px;
+    padding: 5px;
+    float: right;
+}
+
+#gg h4{
+    background-color: #000;
+    border-radius: 10px;
+    padding: 15px;
+    width: 10%;
+    float: right;
+    margin-right: 70px;
+}
+
+#gg .tbl{
+    margin-top: 10px;
+}
+
+#rev{
+    float: right;
+    padding: 15px;
+    width: 100px;
+}
+
+
+#t{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#TEXT{
+    background-color: #000;
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+    float: right;
+    margin-right: 60px;
+    text-align: center;
+}
+
+#taille{
+    margin-left: 30px;
+}
+
+.inp{
+    margin-top: 30px;
+}
+
+.inp2{
+    float: right;
+}
+
+#cree{
+    width: 10%;
+}
+
+button:hover, button:focus
+{
+    background-color: #5d7db0;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+
+
